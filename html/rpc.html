@@ -7,14 +7,23 @@
     <link rel="stylesheet" href="/style/rpc.css">
 </head>
 <body>
-    
+    <center>
+        <nav class="navbar">
+            <a class="games_logo" href="index.html"><img class="logo" src="/images/logo_2.jpg" alt="the logo"></a>
+            <a class="games" href="./tic_tactoe.html">tic tac toe</a>
+            <a class="games" href="./pingpong.html">ping pong</a>
+            <a class="games" href="./rpc.html">rock paper scissors</a>
+            <a class="games" href="/html/signin_up.html">login/signup</a>
+        </nav>
+        </center>
+    <div class="my_buttons">
+    <button class="rock"  role="button" onclick="user_choice = 'rock'; play(user_choice);">👊</button>
+    <button class="paper"  role="button" onclick="user_choice ='paper'; play(user_choice);">🖐</button>
+    <button class="scissors"  role="button" onclick="user_choice = 'scissors'; play(user_choice);">✌️</button>
+    </div>
 
-    <p class="">👊</p>
-    <p>🖐</p>
-    <p>✌️</p>
-
-    <script src="/javascript/rpc.js">
-
-    </script>
+    <br><br><br><br>
+    <p id="demo"></p>
+    <script src="/javascript/rpc.js"></script>
 </body>
 </html>
