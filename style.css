@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #ff980e;
+
+}
+.navbar{
+    position: sticky;
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+    top: 5px;
+    background-color: brown;
+    text-decoration: none;
+}
+.games{
+    margin-left: 35px;
+    padding-right:15px;
+    font-size: 25px;
+    color: white;
+    background-color: brown;
+    text-decoration: none;
+}
+.sample-text{
+    font-size: 35px;
+}
+.logo{
+    width: 50px;
+
+
+}
