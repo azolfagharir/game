@@ -1,0 +1,12 @@
+{
+  "name": "gamet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "signin_up.js",
+  "scripts": {
+    "start": "node signin_up.js"
+  },
+  "dependencies": {
+    "sweetalert2": "^11.6.13"
+  }
+}
