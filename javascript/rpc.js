@@ -1,12 +1,8 @@
 
-import Swal from('sweetalert2');
 
-Swal.fire({
-    title: 'Error!',
-    text: 'Do you want to continue',
-    icon: 'error',
-    confirmButtonText: 'Cool'
-  });
+/*import swal from 'sweetalert';
+
+swal("Hello world!");*/
 var user_choice;
 let computer_choice;
 var result;

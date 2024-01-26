@@ -1,12 +1,15 @@
 {
-  "name": "gamet",
+  "name": "game",
   "version": "1.0.0",
-  "description": "",
-  "main": "signin_up.js",
+  "description": "./node_modules/src/index.js",
+  "main": "./node_modules/src/index.js",
   "scripts": {
-    "start": "node signin_up.js"
+    "start": "node ./node_modules/src/index.js"
   },
   "dependencies": {
-    "sweetalert2": "^11.10.2"
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.3"
   }
 }
