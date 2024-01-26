@@ -6,7 +6,7 @@
     <title>tictactoe</title>
 </head>
 <body>
-    <link rel="stylesheet" href="/style/tic_tactoe.css">
+    <link rel="stylesheet" href="/style/two_player_tictactoe.css">
     <center>
         <nav class="navbar">
             <a class="games_logo" href="index.html"><img class="logo" src="/images/logo_2.jpg" alt="the logo"></a>
@@ -17,18 +17,24 @@
         </nav>
         </center>
         <br>
-        <br>
-      
-        <br>
-       
-        <br>
-        <br>
+
        <div>
-        <center>
-            <button class="buttons but1"><a href="/html/two_player_tictactoe.html">two player game</a></button>
-            <button class="buttons but2"><a href="/html/single_player_tictactoe.html">single player game</a></button>
-        </center>
-        </div>
+            <div id="game_countainer">
+                <h1 class="game--title">Tic-Tac-Toe</h1>
+                <div class="game--container">
+                    <div data-cell-index="0" class="cell"></div>
+                    <div data-cell-index="1" class="cell"></div>
+                    <div data-cell-index="2" class="cell"></div>
+                    <div data-cell-index="3" class="cell"></div>
+                    <div data-cell-index="4" class="cell"></div>
+                    <div data-cell-index="5" class="cell"></div>
+                    <div data-cell-index="6" class="cell"></div>
+                    <div data-cell-index="7" class="cell"></div>
+                    <div data-cell-index="8" class="cell"></div>
+                </div>
+                <h2 class="game--status"></h2>
+                <button class="game--restart">Restart Game</button>
+            </div>
        </div>
        <br>
        <br>
