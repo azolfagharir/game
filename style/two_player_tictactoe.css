@@ -32,9 +32,9 @@ body{
 }
 
 .game--title {
-    font-size: 100px;
-    color: #d7a62f;
-    margin: 10px auto;
+    font-size: 50px;
+    color: #000000;
+    margin: 1px auto;
 }
 
 .game--container {
@@ -48,7 +48,7 @@ body{
 
 .game--status {
     font-size: 50px;
-    color: #d7a62f;
+    color: #000000;
     margin: 20px auto;
 }
 
@@ -56,8 +56,8 @@ body{
     background-color: #f7e4ac;
     width: 200px;
     height: 50px;
-    font-size: 25px;
-    color: #5586e2;
+    font-size: 30px;
+    color: #0448c8;
     box-shadow: 2px 2px 2px 2px #d86c23;
     border: 2px solid #d86c23;
 }
@@ -123,7 +123,7 @@ a{
    
 }
 
-h1 { color: #d54d7b; font-family: "Great Vibes", cursive; font-size: 165px; line-height: 160px; font-weight: normal; margin-bottom: 0px; margin-top: 40px; text-align: center; text-shadow: 0 1px 1px #fff; }
+h1 { color: #000000; font-family: "Great Vibes", cursive; font-size: 50px; line-height: 70px; font-weight: normal; margin-bottom: 0px; margin-top: 40px; text-align: center; text-shadow: 0 1px 1px #fff; }
 
 
 
